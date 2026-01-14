@@ -20,6 +20,12 @@ or
 sn-api-helper-mcp serve
 ```
 
+or
+
+```bash
+uvx sn-api-helper-mcp
+```
+
 ## Features
 
 - Transport: stdio only
