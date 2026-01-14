@@ -1,6 +1,12 @@
 # sn-api-helper-mcp
 
-Minimal MCP server template based on `sn-mcp-server` structure (stdio only).
+MCP server for SignNow API helper tools (stdio only).
+
+## Installation
+
+```bash
+pip install -e .
+```
 
 ## Run
 
@@ -14,7 +20,7 @@ or
 sn-api-helper-mcp serve
 ```
 
-## Notes
+## Features
 
-- Transport: stdio only.
-- Tools: `echo` only.
+- Transport: stdio only
+- Tools: `get_signnow_api_info` - Get information about SignNow API

@@ -5,12 +5,12 @@ build-backend = "hatchling.build"
 [project]
 name = "sn-api-helper-mcp"
 version = "0.1.0"
-description = "Minimal MCP server (stdio only, no tools)."
+description = "MCP server for SignNow API helper tools (stdio only)."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [
-  { name = "Your Name" }
+  { name = "SignNow" }
 ]
 dependencies = [
   "fastmcp>=2.14.1",

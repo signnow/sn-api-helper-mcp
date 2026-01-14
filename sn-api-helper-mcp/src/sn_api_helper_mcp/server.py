@@ -1,7 +1,5 @@
 """MCP server setup and tool registration."""
 
-from __future__ import annotations
-
 from typing import Any
 
 from fastmcp import FastMCP

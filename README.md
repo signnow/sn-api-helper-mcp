@@ -1,1 +1,0 @@
-# sn-api-helper-mcp

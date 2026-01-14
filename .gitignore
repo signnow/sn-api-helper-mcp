@@ -1,0 +1,8 @@
+# Ignore everything in the root directory
+*
+
+# But don't ignore the sn-api-helper-mcp project
+!sn-api-helper-mcp/
+
+# Also don't ignore .gitignore itself
+!.gitignore
