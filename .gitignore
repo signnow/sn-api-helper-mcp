@@ -1,8 +1,96 @@
-# Ignore everything in the root directory
-*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# But don't ignore the sn-api-helper-mcp project
-!sn-api-helper-mcp/
+# C extensions
+*.so
 
-# Also don't ignore .gitignore itself
-!.gitignore
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+.pytest_cache/
+
+# Ignore all other project directories in the parent folder
+.store/
+agents/
+comp_vision_playground/
+fileGenerator/
+from0toHero/
+game1/
+hackaton/
+llama_index/
+pythonProject/
+pythonProject1/
+pythonProject2/
+pythonProject3/
+pythonProject4/
+pythonProject4.zip
+sample_combined/
+sample_combined_java/
+sn-api-helper-mcp.zip
+sn-mcp-server-internal/
+sn-mcp-server.zip
+sn-mcp-server/
+sn-mcp-server2.zip
+sn_smolagent_tools_demo/
+tasktime/
+tinyagent/
