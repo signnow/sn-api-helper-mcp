@@ -5,6 +5,8 @@
 
 MCP server for SignNow API helper tools (stdio only).
 
+mcp-name: io.github.signnow/sn-api-helper-mcp
+
 ## Installation
 
 ```bash
