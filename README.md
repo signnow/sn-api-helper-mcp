@@ -1,8 +1,10 @@
 # SignNow API Helper MCP
+[![PyPI](https://img.shields.io/pypi/v/sn-api-helper-mcp)](https://pypi.org/project/sn-api-helper-mcp/)
+[![License](https://img.shields.io/github/license/signnow/sn-api-helper-mcp)](https://github.com/signnow/sn-api-helper-mcp/blob/main/LICENSE.md)
 
 An MCP server for SignNow API helper tools (stdio only).
 
-mcp-name: `io.github.signnow/sn-api-helper-mcp`
+mcp-name: io.github.signnow/sn-api-helper-mcp
 
 ## Purpose & Capabilities
 
@@ -110,7 +112,6 @@ VS Code uses the **Cline** extension (or similar MCP clients) to interact with M
 ```
 
 ## ✨ Features
-
 - **Transport:** stdio only
 - **Available Tools:**
     - `get_signnow_api_info` - Fetching API reference documentation.
