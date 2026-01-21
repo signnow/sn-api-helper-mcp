@@ -1,10 +1,10 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
 name = "sn-api-helper-mcp"
-version = "0.1.0"
+dynamic = ["version"]
 description = "MCP server for SignNow API helper tools (stdio only)."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -24,3 +24,6 @@ sn-api-helper-mcp = "sn_api_helper_mcp.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/sn_api_helper_mcp"]
+
+[tool.hatch.version]
+source = "vcs"
